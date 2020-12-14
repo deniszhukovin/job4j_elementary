@@ -1,17 +1,17 @@
 package ru.job4j;
 
 public class Converter {
-    public static int rubleToEuro(int value) {
-        int rsl = value / 70;
+    public static double rubleToEuro(double value) {
+        double rsl  = value / 70;
         return rsl;
     }
-    public static int rubleToDollar(int value) {
-        int rsl = value / 60;
+    public static double rubleToDollar(double value) {
+        double rsl = value / 60;
         return rsl;
     }
     public static void main(String[] args) {
-        int euro = Converter.rubleToEuro(1400);
-        int dollar = Converter.rubleToDollar(1200);
+        double euro = Converter.rubleToEuro(15);
+        double dollar = Converter.rubleToDollar(12);
         System.out.println( euro + dollar);
     }
 }
