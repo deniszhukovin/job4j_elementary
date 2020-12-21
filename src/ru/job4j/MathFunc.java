@@ -6,8 +6,8 @@ public class MathFunc {
         return y;
     }
     public static void main(String[] args) {
-        int result1 = MathFunc.func1(100);
-        int total = result1;
+        int y = MathFunc.func1(100);
+        int total = y;
         System.out.println(total);
     }
 }
