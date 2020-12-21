@@ -9,7 +9,7 @@ public class SqArea {
    }
 
    public static void main(String[] args) {
-     double s1 = SqArea.sqarea(6,2);
+     double s1 = SqArea.sqarea(6, 2);
      System.out.println(s1);
    }
 }
