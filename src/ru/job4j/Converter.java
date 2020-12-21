@@ -21,11 +21,11 @@ public class Converter {
         int in1 = 120;
         int expected1 = 2;
         int out1 = (int) dollar;
-        boolean passed1 = expected == out;
+        boolean passed2 = expected == out;
         System.out.println(euro);
         System.out.println(dollar);
         System.out.println("140 rubles are 2. Test result : " + passed);
-        System.out.println("120 rubles are 2. Test result : " + passed1);
+        System.out.println("120 rubles are 2. Test result : " + passed2);
     }
 
 }
