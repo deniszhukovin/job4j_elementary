@@ -1,12 +1,12 @@
 package ru.job4j;
 
 public class Converter {
-    public static double rubleToEuro(double value ,double cfe) {
+    public static double rubleToEuro(double value, double cfe) {
         double rsl = value / cfe;
         return rsl;
     }
 
-    public static double rubleToDollar(double value ,double cfd) {
+    public static double rubleToDollar(double value, double cfd) {
         double rsl = value / cfd;
         return rsl;
     }
@@ -27,7 +27,6 @@ public class Converter {
         System.out.println("140 rubles are 2. Test result : " + passed);
         System.out.println("120 rubles are 2. Test result : " + passed1);
     }
-
 
 }
 

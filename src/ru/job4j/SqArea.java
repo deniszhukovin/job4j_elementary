@@ -6,9 +6,10 @@ public class SqArea {
      double l = h * k;
      double s = l * h;
      return s;
-}
+   }
+
    public static void main(String[] args) {
-     double s = SqArea.sqarea(6,2);
-     System.out.println(s);
+     double s1 = SqArea.sqarea(6,2);
+     System.out.println(s1);
    }
 }
