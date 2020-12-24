@@ -1,6 +1,6 @@
 package ru.job4j;
 
-public class X3 {
+public class X2 {
     public static int calk(int a, int b, int c, int x) {
         return a * x * x + b *x + c;
     }
@@ -9,7 +9,7 @@ public class X3 {
         int b = 1;
         int c = 1;
         int x = 1;
-        int rsl = X3.calk(a, b, c, x);
+        int rsl = X2.calk(a, b, c, x);
         System.out.println(rsl);
     }
 }
