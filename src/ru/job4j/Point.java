@@ -12,7 +12,7 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        double distance = Point.distance(5, 9, 45, 8);
+        double distance = Point.distance(13, 7, 12, 29);
         System.out.println(distance);
     }
 
