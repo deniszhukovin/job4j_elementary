@@ -13,7 +13,7 @@ public class MultiMax {
         return result;
     }
     public static void main(String[] args) {
-        MultiMax.max(755, 57866, 158);
+        MultiMax.max(755, 755, 158);
     }
 }
 
