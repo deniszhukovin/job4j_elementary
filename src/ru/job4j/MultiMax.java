@@ -9,13 +9,11 @@ public class MultiMax {
         } else if (third > first) {
             result = third;
             System.out.println(result);
-        } else {
-            System.out.println(result);
         }
         return result;
     }
     public static void main(String[] args) {
-        MultiMax.max(755, 57, 158);
+        MultiMax.max(755, 57866, 158);
     }
 }
 
