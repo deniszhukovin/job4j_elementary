@@ -2,12 +2,15 @@ package ru.job4j;
 
 public class LogicNot {
     public boolean isEven(int num) {
+
         return num % 2 == 0;
     }
 
     public boolean isPositive(int num) {
         return num > 0;
     }
+
+
 
     public boolean notEven(int num) {
         return !isEven(num);

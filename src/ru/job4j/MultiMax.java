@@ -6,9 +6,11 @@ public class MultiMax {
         if ((second > third) && (second > first)) {
             result = second;
             System.out.println(result);
+
         } else if (third > first) {
             result = third;
             System.out.println(result);
+
         }
         return result;
     }

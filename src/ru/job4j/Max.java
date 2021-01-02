@@ -7,7 +7,7 @@ public class Max {
         return result;
     }
     public static void main(String[] args) {
-       int result = Max.max(7, 7);
+       int result = Max.max(22, 882);
         System.out.println(result);
     }
 
