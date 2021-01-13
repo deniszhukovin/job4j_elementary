@@ -3,8 +3,8 @@ package ru.job4j;
 public class PrimeNumber {
     public static int calc(int finish) {
     int count = 0;
-        for (int number = 2; number  <= finish; number++ ) {
-        if (CheckPrimeNumber.check(number)) {
+        for (int number1 = 2; number1  <= finish; number1++ ) {
+        if (CheckPrimeNumber.check(number1)) {
             boolean prime = true;
             count++ ;
         }
