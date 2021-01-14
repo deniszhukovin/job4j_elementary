@@ -2,7 +2,7 @@ package ru.job4j;
 
 public class CheckPrimeNumber {
     public static boolean check(int number) {
-        boolean prime = true;
+        boolean prime = number > 1;
         for (int ind = 2; ind < (number - 1); ind++) {
              if (number % ind == 0) {
                 prime = false;
@@ -13,7 +13,7 @@ public class CheckPrimeNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(check(2));
+        System.out.println(check(1));
     }
 }
 
