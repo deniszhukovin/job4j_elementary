@@ -10,6 +10,6 @@ public class Priz {
         return 0;
     }
     public static void main(String[] args) {
-        System.out.println(Priz.checkGame(3,5,4));
+        System.out.println(Priz.checkGame(3,5,48));
     }
 }

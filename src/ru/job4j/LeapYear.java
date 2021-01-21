@@ -15,7 +15,7 @@ public class LeapYear {
         return false;
     }
     public static void main(String[] args) {
-        System.out.println(checkYear(2000));
+        System.out.println(checkYear(2012));
 }
 }
 

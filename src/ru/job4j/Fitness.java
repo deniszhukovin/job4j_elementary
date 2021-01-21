@@ -13,7 +13,7 @@ public class Fitness {
         return month;
     }
    public static void main(String[] args) {
-        Fitness.calc(90, 100);
+        Fitness.calc(10, 100);
     }
 }
 

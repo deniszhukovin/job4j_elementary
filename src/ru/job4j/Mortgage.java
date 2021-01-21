@@ -10,7 +10,7 @@ public class Mortgage {
         }
             return year;
         }
-        public static void main(String[] args) { Mortgage.year(100, 70, 50); }
+        public static void main(String[] args) { Mortgage.year(100000, 70000, 15); }
 
 
 }
